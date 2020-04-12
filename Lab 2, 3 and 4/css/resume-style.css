@@ -1,0 +1,169 @@
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px, solid, #f1f1f1;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Lato';
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.subtitle {
+    color: #999;
+    margin-bottom: 1em;
+    font-family: 'Lato';
+    font-size: 1.5em;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.menu {
+    width: 990px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+.menu-item {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #999;
+    vertical-align: bottom;
+    background-color: white;
+}
+.menu-item-active {
+    position: relative;
+    bottom: -1px;
+    color: #c0392b;
+    padding: 15px 40px 15px 40px;
+    margin-top: 0;
+}
+.resume-content {
+    padding-right: 30px;
+    border-right: 1px solid #f1f1f1;
+}
+.resume-title {
+    font-size: 2em;
+}
+.resume-info {
+    float: left;
+    width: 100%;
+}
+.resume-info .resume-subtitle {
+    float: left;
+}
+.resume-date {
+    background-color: #c0392b;
+    color: #f1f1f1;
+    border-radius: 3px;
+    text-align: center;
+    padding: 1px 5px 1px 5px;
+    float: right;
+    margin-top: 20px;   
+}
+.resume-aside {
+    padding-left: 20px;
+}
+.skills {
+    list-style-type: none;
+    padding-left: 0;
+}
+.skills-item {
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    padding: 1px 5px -1px 5px;
+    border-radius:5px;
+}
+.skills-bg {
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    background-size: 5rem 5rem;
+    padding: 1px 5px 1px 5px;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+}
+
+.skills-bg.photoshop {
+    background-color:red;
+    padding-right: 1rem;
+}
+
+.skills-bg.ilustrator {
+    background-color:orange;
+    padding-right: 2rem;
+}
+
+.skills-bg.indesign {
+    background-color:rgb(129, 129, 0);
+    padding-right: 3rem;
+}
+
+.skills-bg.xd {
+    background-color:green;
+    padding-right: 4rem;
+}
+
+.skills-bg.sketch {
+    background-color:blue;
+    padding-right: 2rem;
+}
+
+.skills-bg.office {
+    background-color:purple;
+    padding-right: 1rem;
+}
+
+.skills-bg.linux {
+    background-color:rgb(122, 0, 20);
+    padding-right: 1.5rem;
+}
+
+.skills-bg.user {
+    background-color:rgb(51, 128, 179);
+    padding-right: 3.7rem;
+}
+
+.skills-bg.typography {
+    background-color:rgb(106, 18, 179);
+    padding-right: 2.8rem;
+}
+
+.skills-bg.web {
+    background-color:rgb(241, 138, 53);
+    padding-right: 1.2rem;
+}
+
+.skills-bg.html {
+    background-color:rgb(250, 226, 7);
+    padding-right: 1.6rem;
+}
+
+.skills-bg.php {
+    background-color:rgb(5, 168, 209);
+    padding-right: 2.4rem;
+}
+
+.skills-bg.javascript {
+    background-color:rgb(170, 19, 230);
+    padding-right: 1.7rem;
+}
+
+.skills-bg.ruby {
+    background-color:rgb(226, 24, 34);
+    padding-right: 0.8rem;
+}
+
+.skills-bg.python {
+    background-color:rgb(64, 187, 27);
+    padding-right: 4rem;
+}
